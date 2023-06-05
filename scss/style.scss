@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+
+        //**< !--*interface.01.png-->*/
+        .img1 {
+            width: 50%;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding: 15px;
+
+            .txt {
+                width: 25%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                h1 {
+                    font-size: 20px;
+                    font-weight: 600;
+                    opacity: 0.5;
+                    text-transform: uppercase;
+                }
+
+                h2 {
+                    font-size: 25px;
+                    font-weight: 900;
+
+                }
+            }
+
+            .workImg {
+                width: 25%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+
+
+        }
+
+        //**< !--*interface.02.png-->*/
+        .main {
+            width: 50%;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 5px solid red;
+            margin-top: 10px;
+            background-color: rgb(252, 252, 245);
+
+
+
+            .header {
+                width: 100%;
+                height: 19%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-bottom: 2px solid rgb(214 214 197)
+            }
+
+            .middle {
+                width: 100%;
+                height: 19%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+
+                h3 {
+                    color: #22A800;
+                    font-weight: bold;
+                }
+            }
+
+            .footer {
+                width: 100%;
+                height: 19%;
+                background-color: #353535;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .buttonIconAndButton {
+                    width: 20%;
+                    height: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: #FFC500;
+                    padding: 3px;
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                    button {
+                        width: 80%;
+                        height: 50%;
+                        background-color: #FFC500;
+                        border: none;
+                        font-weight: bold;
+                        cursor: pointer;
+
+
+                    }
+
+                    img {
+                        width: 20%;
+
+                    }
+                }
+            }
+        }
+
+        //**< !--*interface.3.png-->*/
+        .deploymentMain {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+            padding: 30px;
+
+            img {
+                width: 35%;
+                height: 80%;
+
+            }
+
+            .deployMentTxt {
+                width: 30%;
+                height: 70%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                gap: 20px;
+
+                h1 {
+                    text-transform: uppercase;
+                }
+
+                p {
+                    font-weight: bold;
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        //**< !--*interface.04.png-->*/
+        .weddingImgDivMain {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+
+            .weddingImg {
+                width: 100%;
+                height: 500px;
+                display: flex;
+                justify-content: center;
+
+
+                img {
+                    width: 50%;
+                    height: 500px;
+                    border: 1px solid #000;
+                }
+            }
+
+            .blockQuote {
+                width: 50%;
+                height: 100px;
+                display: flex;
+                justify-content: flex-end;
+
+                p {
+                    text-transform: capitalize;
+                    font-weight: bold;
+                    opacity: 0.5;
+                }
+            }
+
+            .weddingTxtDiv {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 20px;
+
+                .line {
+                    width: 5%;
+                    height: 2px;
+                    background-color: #a6a3a3;
+                    margin-top: 10px;
+                }
+
+                h1 {
+                    text-transform: capitalize;
+                }
+
+                h5 {
+                    text-transform: capitalize;
+                    font-size: large;
+                    opacity: 0.6;
+                }
+
+                h6 {
+                    font-size: medium;
+                    text-transform: capitalize;
+                    opacity: 0.4;
+                }
+            }
+
+        }
+
+        //**< !--*interface.05.png-->*/
+        .filterDiv {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+
+            .title {
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: flex-start;
+                text-transform: capitalize;
+                padding: 2% 0 2% 0;
+                ;
+                border-bottom: 2px solid rgb(214, 214, 197);
+
+            }
+
+            .tags {
+                width: 100%;
+                height: 250px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                padding: 15px;
+
+
+
+                .tag {
+                    width: fit-content;
+                    height: fit-content;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    padding: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                    text-transform: capitalize;
+                    text-align: center;
+                    cursor: pointer;
+
+                }
+
+            }
+        }
+
+        //**< !--*interface.06.png-->*/
+        .passwordResteDiv {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+            .inputResetDiv {
+                width: 100%;
+                height: 170px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+
+                input {
+                    width: 100%;
+                    height: 50%;
+                    border: 1px solid #d0cccc;
+
+                }
+
+                button {
+                    width: 100%;
+                    height: 50%;
+                    cursor: pointer;
+                    border: none;
+                    background-color: #034C51;
+                    color: #fff;
+                    text-align: center;
+                    font-weight: bold;
+                    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+                }
+
+
+            }
+
+            .passwordResteDivTittle {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 15px;
+
+            }
+
+        }
+
+        .infoDiv {
+            width: 24%;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            margin-top: 10px;
+
+            .mailAndEmailDiv {
+                width: 50%;
+
+            }
+
+            .streetDiv {
+                width: 50%;
+
+
+            }
+
+            .socialIconsDiv {
+                width: 100%;
+
+                display: flex;
+                justify-content: center;
+
+                svg {
+                    width: 50px;
+                    height: 50px;
+                    fill: #034C51;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .iconDivs {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+            background-color: #b8eaee;
+
+            .subDiv {
+                width: 20%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 10px;
+                font-family: monospace;
+                gap: 10px;
+
+
+            }
+        }
+    }
+}
